@@ -84,6 +84,7 @@ for index, variant in tqdm(x_test.iterrows()):
 
     print(mut)
 
+<<<<<<< HEAD
     wt_path = "data/pdbs/Q3214_Q1744/" + wt + "/" + wt + "_relaxed.pdb"
     mut_path = "data/pdbs/Q3214_Q1744/" + wt + "/" + mut + "_relaxed.pdb"
 
@@ -109,6 +110,8 @@ with open("test_graphs.p", "rb") as pickle_file:
 
 #----Create dataloaders----
 
+=======
+>>>>>>> a43333aa926a87757ba0f52b6928565b4a3d4606
 train_data = list(zip(train_graphs, y_train))
 test_data = list(zip(test_graphs, y_test))
 
